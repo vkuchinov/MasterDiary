@@ -1,12 +1,17 @@
 class Crack {
   
-      color[] colors = {color(70, 137, 102),
-                        color(255, 240, 165),
-                        color(255, 176, 79),
-                        color(182, 73, 38),
-                        color(142, 40, 0)};
+      //      color[] colors = {color(70, 137, 102),
+      //                        color(255, 240, 165),
+      //                        color(255, 176, 79),
+      //                        color(182, 73, 38),
+      //                        color(142, 40, 0)};
                         
-                     
+      color[] colors = {color(55, 55, 44),
+                        color(93, 145, 125),
+                        color(168, 173, 128),
+                        color(230, 212, 167),
+                        color(130, 85, 52)};
+                        
       int c;
       
       int level = 0;  //level
@@ -14,22 +19,54 @@ class Crack {
       float x1, y1;   //end
       float theta;    // direction
       
+      //radial theta increment
+      float theta_inc = random(0.00, 0.5);
+      
       float strokeWidth;
+      
+      int lifetime;
+      
+      //LINEAR
       
       Crack() {
       
-          strokeWidth = random(0.25, 2.5);
+          strokeWidth = 1.75; //random(0.9);
           setOrigin();
           c = seed.nextInt(5);
+          
+          lifetime = (int)random(54, 2560);
       
       }
       
       Crack(int level_) {
       
+          strokeWidth = 1.75; //random(0.9);
+          level = level_;
+          setOrigin();
+          c = seed.nextInt(5);
+          lifetime = (int)random(64, 2560);
+      
+      }
+      
+      //RADIAL
+      
+      Crack(float theta_inc_) {
+      
+          strokeWidth = random(0.25, 2.5);
+          setOrigin();
+          c = seed.nextInt(5);
+          theta_inc = theta_inc_;
+          //theta_inc = 1.0 / ((2.0 * PI * radius_ / (2.0 * PI)) / step_);
+      
+      }
+      
+      Crack(int level_, float theta_inc_) {
+      
           strokeWidth = random(0.25, 2.5);
           level = level_;
           setOrigin();
           c = seed.nextInt(5);
+          theta_inc = theta_inc_;
       
       }
       
@@ -73,6 +110,8 @@ class Crack {
        
       void grow() {
        
+            if(lifetime > 0){
+              
             x1 += 0.42 * cos(radians(theta));
             y1 += 0.42 * sin(radians(theta)); 
              
@@ -83,7 +122,7 @@ class Crack {
             if(red(mask.get((int)x0, (int)y0)) == 0){
             stroke(colors[c]);
             strokeWeight(strokeWidth);
-            line(x0, y0, x1, y1);
+            line(x1, y1, x1, y1);
             }
             
             if (red(mask.get(cx, cy)) == 0) {
@@ -102,6 +141,18 @@ class Crack {
             structure.addCrack(this.level + 1);
             }
             
+            theta += theta_inc;
+            lifetime--;
+            
+            }
+            else{
+            strokeWeight(18.0);
+            stroke(0);
+            point(x1, y1);
+            stroke(colors[c]);
+            strokeWeight(10.0);
+            point(x1, y1);
+            }
       }
 
 }

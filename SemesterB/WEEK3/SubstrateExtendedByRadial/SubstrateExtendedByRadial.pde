@@ -40,6 +40,7 @@ Random seed = new Random(12345);
 void setup() {
   
   size(800, 800, "processing.core.PGraphicsRetina2D");
+  smooth(8);
   
   mask = loadImage("mask.png");
 
@@ -52,6 +53,7 @@ void setup() {
 
 void draw() {
   
+  noFill();
   structure.render();
   
 }

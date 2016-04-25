@@ -1,6 +1,6 @@
 class Substrate{
     
-      final int MAX_NUM = 32;
+      final int MAX_NUM = 92;
       int num = 0;
      
       int[] grid;
