@@ -35,7 +35,7 @@ PImage mask;
 
 Substrate structure;
 
-Random seed = new Random(12345);
+Random seed = new Random(876543);
 
 void setup() {
   
