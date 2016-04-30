@@ -77,7 +77,7 @@ class Koch{
           float x2 = (p1_.x - p0_.x) * d / c - (p1_.y - p0_.y) * h / c + p0_.x;
           float y2 = (p1_.y - p0_.y) * d / c + (p1_.x - p0_.x) * h / c + p0_.y;
 
-      return new PVector[]{new PVector(x1, x2), new PVector(x2, y2)};
+      return new PVector[]{new PVector(x1, y1), new PVector(x2, y2)};
         
       }
       
