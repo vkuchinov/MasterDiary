@@ -39,6 +39,8 @@
  
 */
 
+import processing.pdf.*;
+
 static int cube_size = 100;
 
 int start_x = cube_size/2;
@@ -54,6 +56,9 @@ int[] colours = {
 void setup() {
  background(0);
  size(800, 800);
+ 
+ beginRecord(PDF, "output.pdf");
+ 
  smooth();
  noStroke();
  
@@ -69,6 +74,9 @@ void setup() {
    if (ypos%2 == 0) shift = 0;
    else shift = -cube_size/2;
  }
+ 
+ endRecord();
+ 
 }
 
 void qBert(float x, float y) {
