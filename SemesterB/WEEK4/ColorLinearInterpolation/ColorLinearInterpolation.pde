@@ -20,14 +20,14 @@ void setup(){
      for(int x = 0; x < width; x++){
       
         noStroke();
-        fill(interpolationColor(edges[0], edges[1], 1.0/600.0 * x));
+        fill(linearInterpolation(edges[0], edges[1], 1.0/600.0 * x));
         rect(x, 0, 1, 150); 
        
      }
 
 }
 
-color interpolationColor(color c0_, color c1_, float fraction_){
+color linearInterpolation(color c0_, color c1_, float fraction_){
 
             float fraction = constrain(fraction_, 0.0, 1.0);
             
