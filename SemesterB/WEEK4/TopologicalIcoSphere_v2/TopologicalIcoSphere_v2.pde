@@ -10,6 +10,8 @@ http://blog.andreaskahler.com/2009/06/creating-icosphere-mesh-in-code.html
 
 */
 
+import java.util.HashSet;
+
 import peasy.*;
 PeasyCam cam;
 
@@ -45,23 +47,21 @@ void setup(){
      for(int v = 0; v < vertices.length; v++){ vertices[v].normalize(); }
      sphere = new Iso(vertices);
      
+     sphere.nextLevel();
+     sphere.nextLevel();
+     sphere.nextLevel();
+ 
+     //sphere.exportVertices();
+     
+     sphere.setNeighbours();      
+     
 }
-
 
 void draw() {
   
     colorMode(RGB);
     background(192, 192, 192);
-    
-    for(int v = 0; v < vertices.length; v++){
-    stroke(0);
-    //strokeWeight(8);
-    //point(vertices[v].x * 64, vertices[v].y * 64, vertices[v].z * 64);
-      
-    }
-    sphere.nextLevel();
-    sphere.nextLevel();
-    
-    sphere.draw(128);
+
+    sphere.draw();
   
 }

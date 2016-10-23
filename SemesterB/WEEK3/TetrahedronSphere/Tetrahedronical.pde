@@ -95,7 +95,7 @@ class Tetrahedronical{
          
          for(int p = 0; p < polygons.size(); p++){
            
-            fill(polygons.get(p).tint, 240,240, 92);
+            fill(polygons.get(p).tint, 240,240, 128);
             
             beginShape();
             vertex(vertices.get(polygons.get(p).a).x * 120, vertices.get(polygons.get(p).a).y  * 120, vertices.get(polygons.get(p).a).z  * 120);
