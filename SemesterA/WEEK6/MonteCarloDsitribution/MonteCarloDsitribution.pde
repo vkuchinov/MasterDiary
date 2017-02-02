@@ -22,7 +22,7 @@ void setup(){
    for(int p = 0; p < 2048; p++){
     
       //standard distribution
-      float theta = random(- 2 * PI, 2 * PI); 
+      float theta = random(- PI, PI); 
       float x = 240 + cos(theta) * random(180.0);
       float y = 220 + sin(theta) * random(180.0);
       
@@ -31,7 +31,7 @@ void setup(){
       point(x, y);
       
       //Monte Carlo distribution
-      theta = random(- 2 * PI, 2 * PI);
+      theta = random(- PI, PI);
       x = 680 + cos(theta) * monteCarlo(180.0);
       y = 220 + sin(theta) * monteCarlo(180.0);
       
