@@ -23,12 +23,14 @@ https://en.wikipedia.org/wiki/Collatz_conjecture
 FURTHER READINGS:
 http://maltego.blogspot.ru/2012/09/hailstone-sequences-visualized-in.html [Maltego Radium machines]
 
-
 */
 
-//int n = 27;
+int n = 11;
+int steps = 1;
 
-final int MAX_NUMBERS = 2048;
+float max = Float.NEGATIVE_INFINITY;
+    
+Graph g;
 
 void setup(){
   
@@ -38,42 +40,7 @@ void setup(){
  stroke(255);
  strokeWeight(1.5);
          
- for(int i = 1; i < MAX_NUMBERS; i++){
-   
-    IntList current = hailstone(i);
-    float max = max(current.array());
-    float plotLength = current.size();
-    
-      for(int n = 1; n < current.size(); n++){
+ g = new Graph(11, 13);
 
-         float x0 = map(i - 1, 0, MAX_NUMBERS, 50, 450); 
-         float u0 = height - 50 - map(current.get(n - 1), 1, max, 0, plotLength) * 2.0;
-         
-         float x1 = map(i, 0, MAX_NUMBERS, 50, 450);
-         float y1 = height - 50 - map(current.get(n), 1, max, 0, plotLength) * 2.0;
-        
-         point(x1, y1);
-         
-      } 
-   
- }
-
- 
-}
-
-IntList hailstone( int n_ ){
- 
-   IntList sequence = new IntList();
-   sequence.append(n_);
-  
-   while( n_ > 1 ) {
-
-     n_ = n_ % 2 != 0 ? 3 * n_ + 1 : n_ / 2;
-     sequence.append(n_);
-     
-   } 
-  
-  return sequence;
-  
 }
 

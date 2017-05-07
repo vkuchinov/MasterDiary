@@ -72,6 +72,8 @@ http://www.bragitoff.com/2015/09/c-program-for-polynomial-fit-least-squares/
 
 */
 
+static int OFFSET = 64;
+
 static int LINEAR = 1;
 static int PARABOLIC = 2;
 static int CUBIC = 3;
@@ -80,6 +82,8 @@ static int QUARTIC = 4;
                    
 Polynomial interpolation;
 ArrayList<PVector> points = new ArrayList<PVector>();
+
+float minX, maxX, minY, maxY;
 
 void setup(){
  
@@ -91,15 +95,32 @@ void setup(){
      points.add(new PVector(3.0, 3.0));
      points.add(new PVector(4.0, 7.0));
      points.add(new PVector(5.0, 7.0));
+        
+     interpolation = new Polynomial(points, 3);
+
+     setBounds(points);
      
      for(PVector p : points){
       
         stroke(0, 255, 255);
         strokeWeight(8);
-        point(p.x, p.y);
+        point(map(p.x, minX, maxX, OFFSET, width - OFFSET), map(p.y, minY, maxY, OFFSET, height - OFFSET));
        
      }
      
-     interpolation = new Polynomial(points, 3);
+     for(float x = minX; x < maxX; x+= 0.05){
+       
+       float y = interpolation.getY(x);
+       stroke(255, 0, 255);
+       strokeWeight(2.0);
+       point(map(x, minX, maxX, OFFSET, width - OFFSET), map(y, minY, maxY, OFFSET, height - OFFSET));
+       
+     }
   
+  
+}
+
+void setBounds(ArrayList<PVector> points_){
+  
+      for(PVector p : points_) { minX = min(minX, p.x); maxX = max(maxX, p.x); minY = min(minY, p.y); maxY = max(maxY, p.y); }
 }

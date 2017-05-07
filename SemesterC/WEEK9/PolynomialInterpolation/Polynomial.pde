@@ -1,8 +1,7 @@
 class Polynomial{
  
-     //for cubic polinomial
-     //should be replaced with ArrayList
-     //for (n) polynomial
+     float EPSILON = 1E-4;
+
      int n, N;
      
      double[] a, b, c, d;
@@ -10,12 +9,11 @@ class Polynomial{
      
      //normal matrix(augmented)
      double[][] B;
-     
-     float EPSILON = 1E-4;
+
   
      Polynomial(ArrayList<PVector> points_, int n_){
        
-       n = n_; //degree
+       n = n_; //order
        N = points_.size();
               
        x = new double[points_.size()];
@@ -44,7 +42,7 @@ class Polynomial{
           
        for (int i = 0; i <= n; i++) { for (int j = 0; j <=n ; j++) { B[i][j] = X[i + j]; }}  
             
-
+       //stores values of sigma(yi), sigma(yi^2)...sigma(yi^2n)
        Y = new double[n + 1];              
     
        for (int i = 0; i < n + 1; i++){
@@ -80,7 +78,7 @@ class Polynomial{
             for (int k = i + 1; k < n; k++){ 
             
             double t = B[k][i] / B[i][i];
-            for (int j = 0; j <= n; j++) { B[k][j] = B[k][j] - t * B[i][j]; }
+            for (int j = 0; j <= n; j++) { B[k][j] -=  t * B[i][j]; }
             
             }
             
@@ -90,9 +88,9 @@ class Polynomial{
         
             a[i] = B[i][n]; 
             
-            for (int j = 0; j < n; j++) { if (j != i)  { a[i] = a[i] - B[i][j] * a[j]; } }
+            for (int j = 0; j < n; j++) { if (j != i)  { a[i] -= B[i][j] * a[j]; } }
             
-            a[i] = a[i] / B[i][i];
+            a[i] /= B[i][i];
 
         } 
 
@@ -105,10 +103,24 @@ class Polynomial{
       String o = "y = " + (float)a_[0];
       
       for(int i = 1; i < n_; i++){
-        o += " + " + (float)a_[i] + " * x^" + (i + 1);
+        o += " + " + (float)a_[i] + " * x^" + i ;
       }
       
       println(o);
+      
+    }
+    
+    float getY(float x_){
+      
+      float output = (float)a[0];
+      
+      for(int i = 1; i < n; i++){
+        
+        output += (float)a[i] * pow(x_, i);
+         
+      }
+      
+      return output;
       
     }
   
