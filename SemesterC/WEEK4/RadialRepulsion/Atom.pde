@@ -13,7 +13,7 @@ class Agent {
     
     void draw() {
     
-        angle = map(mouseX, 0.0, width, -120, 480);
+        //angle = map(mouseX, 0.0, width, -120, 480);
         
         //repulsor 
         float dist = abs(angle - repulsor.angle); 
@@ -29,13 +29,12 @@ class Agent {
         y = sin(radians(angle)) * (220 + sine * dir);
 
         } else {
-        dir *= -1;  
-        
+
         x = cos(radians(angle)) * 220;
         y = sin(radians(angle)) * 220;
         
         }
-        
+
         
         noStroke();
         fill(0);

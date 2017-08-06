@@ -34,6 +34,8 @@ void draw() {
       agent.draw();
       repulsor.draw();
       
+      if(agent.angle < 360) { agent.angle += 1.5; } else { agent.dir *= -1;   agent.angle = 0; }
+      
 }
 
 
