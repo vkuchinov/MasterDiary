@@ -58,9 +58,9 @@ void setup(){
    background(0);
    p = new PointList();
    
-   for(int i = 0; i < 5120; i++){
+   for(int i = 0; i < 9999; i++){
     
-     p.add(new Point(random(180, 220), random(-PI, PI), 3.2));
+     p.add(new Point(random(180, 220), random(-PI, PI), random(2, 4.2)));
      
    }
    
