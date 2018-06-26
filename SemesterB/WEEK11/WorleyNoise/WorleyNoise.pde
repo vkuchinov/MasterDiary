@@ -23,9 +23,27 @@ https://en.wikipedia.org/wiki/Worley_noise
 
 */
 
+import java.util.Random;
+Random seed = new Random(12345);
+
+Worley noise;
+int resolution = 512;
+
 void setup(){
   
-   size(512, 512)
-    
-  
+   size(512, 512);
+   noise = new Worley(32, seed);
+
+   float map[] = noise.getNormalizedMap(resolution);
+   
+   for(int y = 0; y < resolution; y++){
+     for(int x = 0; x < resolution; x++){
+       
+       int i = (int)map(map[y*resolution + x], 1, 0, 0, 256);
+       color c = color(i);
+       set(x, y, c);
+       
+     }
+   }
+   
 }
