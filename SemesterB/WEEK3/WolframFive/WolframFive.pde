@@ -12,7 +12,7 @@ rendering horizontaly to save space
 */
 
 import java.util.Random;
-Random seed = new Random(123456);
+Random seed = new Random(2222);
 
 
 PImage grid = createImage(1000, 400, RGB);

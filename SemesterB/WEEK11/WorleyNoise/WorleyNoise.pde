@@ -8,7 +8,7 @@ textures that are created automatically in arbitrary precision and
 don't have to be drawn by hand. Worley noise comes close to simulating 
 textures of stone, water, or cell noise.
 
-Looks like Vorono diagram, cause it has the same math:
+Looks like Voronoi diagram, cause it has the same math:
 Noise Fn(x) is distance to nth-closest point to x.
 
 Perlin noise is lattice based, while Worley—point based.
@@ -24,7 +24,7 @@ https://en.wikipedia.org/wiki/Worley_noise
 */
 
 import java.util.Random;
-Random seed = new Random(12345);
+Random seed = new Random(4949);
 
 Worley noise;
 int resolution = 512;

@@ -32,7 +32,7 @@ void setup(){
 
 float exponentialMap(float[] n_, float value_, float min0_, float max0_, float min1_, float max1_){
   
-  float a = 0.8; float b = 8E2;
+  float a = 0.8; float b = 5E2;
     
   float o[] = new float[n_.length];
   for(int i = 0; i < n_.length; i++){ o[i] = a * pow(b, map(n_[i], min0_, max0_, 0.0, 1.0)); }
