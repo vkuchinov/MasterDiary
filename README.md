@@ -4,7 +4,45 @@
 
 <h3>SEMESTER A</h3>
 
-| WEEK 1 |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+**SEMESTER A**| | | 
+:-----:|:-----:|:-----:|:-----:
+WEEK 1| | | 
+1|2|3|4
+5|6|7|8
+9|10|11|12
+WEEK 2| | | 
+1|2|3|4
+5|6|7|8
+9| | | 
+WEEK 3| | | 
+1|2|3|4
+5|6|7|8
+9| | | 
+WEEK 4| | | 
+1|2|3|4
+5|6|7|8
+9| | | 
+WEEK 5| | | 
+1|2|3|4
+5| | | 
+WEEK 6| | | 
+1|2|3|4
+5|6|7| 
+WEEK 7| | | 
+1|2|3|4
+5| | | 
+WEEK 8| | | 
+1|2|3|4
+5|6|7|8
+9|10| | 
+WEEK 9| | | 
+1|2|3|4
+5|6|7|8
+9|10| | 
+WEEK 10| | | 
+1|2|3|4
+WEEK 11| | | 
+1|2|3|4
+AFTERMATH| | | 
+1|2|3|4
+ | | |TOTAL:  79
