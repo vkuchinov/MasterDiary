@@ -13,6 +13,6 @@
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK2/ForLoopTricks/thumb.png?raw=true "ForLoopTricks") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK2/GA_Interface/thumb.png?raw=true "GA_Interface") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK2/GrayScottAlgorithm/thumb.png?raw=true "GrayScottAlgorithm") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK2/LCM_GCF_Functions/thumb.png?raw=true "LCM_GCF_Functions") 
 |  ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK2/UCC_ExperimentFOUR/thumb.png?raw=true "UCC_ExperimentFOUR")
 | WEEK 3 |
-| 1 | 2 | 3 | 4
-| 5 | 6 | 7 | 8
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/CubicVoronoiDiagram/thumb.png?raw=true "CubicVoronoiDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/ExperimentalDiagram/thumb.png?raw=true "ExperimentalDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/ManhattanDiagram/thumb.png?raw=true "ManhattanDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/Spidrons/thumb.png?raw=true "Spidrons")
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/Spidrons/thumb.png?raw=true "Spidrons") |  | 7 | 8
 | 9
