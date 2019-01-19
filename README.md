@@ -1,4 +1,4 @@
-<h1>MASTER'S DIARES ~70 out of 150</h1><br>
+<h1>MASTER'S DIARES [>100 sketches & exercises]</h1><br>
 <i>by Vladimir V. KUCHINOV</i><br><br>
 
 
