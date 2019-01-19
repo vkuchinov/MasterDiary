@@ -5,7 +5,7 @@
 | SEMESTER A | | | | 
 | :------ | :------ | :------ | :------
 | WEEK 1 |
-| 1 | 2 | 3 | 4 
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") 
 | 5 | 6 | 7 | 8
 | 9
 | WEEK 2 |
