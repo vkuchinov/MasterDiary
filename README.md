@@ -3,3 +3,8 @@
 
 
 <h3>SEMESTER A</h3>
+
+| WEEK 1 |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
