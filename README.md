@@ -5,7 +5,7 @@
 | SEMESTER A | | | | 
 | :------ | :------ | :------ | :------
 | WEEK 1 |
-| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") 
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/dynamicFibonacci/thumb.png?raw=true "dynamicFibonacci") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/FibonacciSpiral/thumb.png?raw=true "FibonacciSpiral") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/For_Loop_Reversed_Array/thumb.png?raw=true "For_Loop_Reversed_Array") 
 | 5 | 6 | 7 | 8
 | 9
 | WEEK 2 |
