@@ -7,7 +7,7 @@
 | WEEK 1 |
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Cellular_Artefact_One/thumb.png?raw=true "Cellular_Artefact_One") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/dynamicFibonacci/thumb.png?raw=true "dynamicFibonacci") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/FibonacciSpiral/thumb.png?raw=true "FibonacciSpiral") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/For_Loop_Reversed_Array/thumb.png?raw=true "For_Loop_Reversed_Array") 
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/GameOfLife/thumb.png?raw=true "GameOfLife") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/GoL_3D_Lifetime/thumb.png?raw=true "GoL_3D_Lifetime") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/HexagonalCA/thumb.png?raw=true "HexagonalCA") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/MC_Escher_MkI/thumb.png?raw=true "MC_Escher_MkI")
-| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/PythagorianTree/thumb.png?raw=true "PythagorianTree") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/There_Is_Always_A_Bigger_Fish/thumb.png?raw=true "There_Is_Always_A_Bigger_Fish") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/Tracers/thumb.png?raw=true "Tracers") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK1/WolframCA_PDFs/thumb.png?raw=true "WolframCA_PDFs")
+| 9
 | WEEK 2 |
 | 1 | 2 | 3 | 4
 | 5 | 6 | 7 | 8 
