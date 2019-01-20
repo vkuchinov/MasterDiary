@@ -15,3 +15,7 @@
 | WEEK 3 |
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/CubicVoronoiDiagram/thumb.png?raw=true "CubicVoronoiDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/ExperimentalDiagram/thumb.png?raw=true "ExperimentalDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/ManhattanDiagram/thumb.png?raw=true "ManhattanDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/Spidrons/thumb.png?raw=true "Spidrons")
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/VoronoiOverManhattan/thumb.png?raw=true "VoronoiOverManhattan") |  | 
+| WEEK 4 |
+| 1 | 2 | 3 | 4 
+| 5 | 6 | 7 | 8
+
