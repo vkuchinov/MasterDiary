@@ -42,3 +42,8 @@
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK11/ForContinueSkip/thumb.png?raw=true "ForContinueSkip") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK11/minimRadial/thumb.png?raw=true "minimRadial") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK11/MultiForLoop/thumb.png?raw=true "MultiForLoop") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK11/RandomSet/thumb.png?raw=true "RandomSet")
 | WEEK 12 [PFA] |
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/PFA/cmykSplitter/thumb.png?raw=true "cmykSplitter") |
+<br>
+| SEMESTER B | | | | 
+| :------ | :------ | :------ | :------
+| WEEK 1 |
+| 1 | 2 | 3 | 4
