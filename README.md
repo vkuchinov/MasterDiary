@@ -44,6 +44,7 @@
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/PFA/cmykSplitter/thumb.png?raw=true "cmykSplitter") |
 
 
-| SEMESTER A | | | | 
+| SEMESTER B | | | | 
 | :------ | :------ | :------ | :------
 | WEEK 1 |
+| 1 | 2 | 3 | 4 
