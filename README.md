@@ -1,6 +1,6 @@
 <h1>MASTER'S DIARES [>100 Processing 2.x sketches & exercises]</h1><br>
-<i>by Vladimir V. KUCHINOV</i><br><br>
-<i>2014-2016</i><br>
+<i>by Vladimir V. KUCHINOV</i><br>
+<i>2014-2016</i><br><br>
 
 
 | SEMESTER A | | | | 
