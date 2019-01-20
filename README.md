@@ -16,6 +16,8 @@
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/CubicVoronoiDiagram/thumb.png?raw=true "CubicVoronoiDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/ExperimentalDiagram/thumb.png?raw=true "ExperimentalDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/ManhattanDiagram/thumb.png?raw=true "ManhattanDiagram") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/Spidrons/thumb.png?raw=true "Spidrons")
 | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK3/VoronoiOverManhattan/thumb.png?raw=true "VoronoiOverManhattan") |  | 
 | WEEK 4 |
-| 1 | 2 | 3 | 4 
-| 5 | 6 | 7 | 8
-
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK4/BreedingInvaders/thumb.png?raw=true "BreedingInvaders") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK4/CircularReflection/thumb.png?raw=true "CircularReflection") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK4/CircularReflectons2/thumb.png?raw=true "CircularReflectons2") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK4/MultistagedGoL/thumb.gif?raw=true "MultistagedGoL") 
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK4/randomGaussian/thumb.png?raw=true "randomGaussian") |
+| WEEK 5 |
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK5/CirclesCollisionCheck/thumb.png?raw=true "CirclesCollisionCheck") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK5/GingermanMap/thumb.png?raw=true "GingermanMap") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK5/HeartIllusion/thumb.png?raw=true "HeartIllusion") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK5/RectanglesCollisionCheck/thumb.png?raw=true "RectanglesCollisionCheck")
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterA/WEEK5/ThresholdMetaballs/thumb.png?raw=true "ThresholdMetaballs")
