@@ -47,4 +47,5 @@
 | SEMESTER B | | | | 
 | :------ | :------ | :------ | :------
 | WEEK 1 |
-| 1 | 2 | 3 | 4 
+| ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterB/WEEK1/CircularRelationshipGraph/thumb.png?raw=true "CircularRelationshipGraph")  | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterB/WEEK1/CurlNoiseDivergence/thumb.png?raw=true "CurlNoiseDivergence") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterB/WEEK1/KaryTreeClass/thumb.png?raw=true "KaryTreeClass") | ![alt text](https://github.com/vkuchinov/MasterDiary/blob/master/SemesterB/WEEK1/KernelFilters/thumb.png?raw=true "KernelFilters") 
+
