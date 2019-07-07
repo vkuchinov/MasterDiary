@@ -6,6 +6,7 @@ set n- parallel lines to given one
 REFERENCES:
 none
 
+ [{x: v0_.x + offset_ * (v1_.y - v0_.y) / L, y: v0_.y + offset_ * (v0_.x - v1_.y) / L}, {x: v1_.x + offset_ * (v1_.y - v0_.y) / L, y:v1_.y + offset_ * (v0_.x - v1_.x) / L }]
 @author Vladimir V KUCHINOV
 @email  helloworld@vkuchinov.co.uk
 
