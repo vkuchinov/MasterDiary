@@ -56,7 +56,7 @@ ArrayList <Block> blocks;
 
 void setup() {
 
-  frameRate(30);
+  frameRate(90);
 
   rules = loadStrings("rules.txt");
   
