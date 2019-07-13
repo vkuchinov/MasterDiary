@@ -14,7 +14,7 @@ int CCW = -1;
 import java.util.Random;
 Random seed = new Random(12345);
 
-int[][] matrix = new int[4][4];
+float[][] matrix = new float[4][4];
 
 void setup(){
   
@@ -27,22 +27,73 @@ void setup(){
      } 
      
      println("original matrix:");
-     println(displayMatrix(matrix));
+     println(displayMatrix2D(matrix));
      
      println("rotated matrix:");
      //could be rotated clockwise or counter-clockwise by 90, 180, or 270 degrees
-     println(displayMatrix(rotateMatrix(matrix, -90)));
+     println(displayMatrix2D(transposeMatrix2D(matrix)));
   
 }
 
-String displayMatrix(int[][] matrix_){
+float[][] rotateMatrix2D(float[][] matrix_, int angle_){
+
+    int direction = 1;
+    if(angle_ < 0) { direction = -1; }
+    
+    int n = abs(angle_ / 90) - 1;
+    
+    float[][] output = new float[matrix_.length][matrix_[0].length];
+    
+    if(direction == 1){
+        for (int j = 0; j < matrix_.length; j++) {
+            for (int i = 0; i < matrix_[0].length; i++) {
+                output[i][j] = matrix_[j][matrix_.length - i - 1];
+            }
+        }
+        
+        if(n > 0) output = rotateMatrix2D(output, n * 90);
+     
+    }
+    else
+    {
+        for (int j = 0; j < matrix_.length; j++) {
+            for (int i = 0; i < matrix_[0].length; i++) {
+                output[i][j] = matrix_[matrix_.length - j - 1][i];
+            }
+        }
+        
+        if(n > 0) output = rotateMatrix2D(output, n * -90);
+    }
+
+      return output;
+      
+}
+
+float[][] transposeMatrix2D(float[][] matrix_){
+  
+  float[][] out = new float[matrix_.length][matrix_[0].length];
+  
+  for(int i = 0; i < matrix_.length; i++){
+    for(int j = 0; j < matrix_.length; j++){
+  
+        out[j][i] = matrix_[i][j];
+      
+    }
+  }
+  
+  return out;
+  
+  
+}
+
+String displayMatrix2D(float[][] matrix_){
   
      String output = "";
-     for(int j = 0; j < 4; j++){
+     for(int j = 0; j < matrix_.length; j++){
        
       String currentLine = "";
       
-      for(int i = 0; i < 4; i++){
+      for(int i = 0; i < matrix_[0].length; i++){
        
           currentLine += nf(matrix_[i][j], 2, 0) + " ";
         
@@ -54,38 +105,4 @@ String displayMatrix(int[][] matrix_){
      
      return output;
   
-}
-
-int[][] rotateMatrix(int[][] matrix_, int angle_){
-
-    int direction = 1;
-    if(angle_ < 0) { direction = -1; }
-    
-    int n = abs(angle_ / 90) - 1;
-    
-    int[][] output = new int[4][4];
-    
-    if(direction == 1){
-        for (int j = 0; j < 4; j++) {
-            for (int i = 0; i < 4; i++) {
-                output[i][j] = matrix_[j][4 - i - 1];
-            }
-        }
-        
-        if(n > 0) output = rotateMatrix(output, n * 90);
-     
-    }
-    else
-    {
-        for (int j = 0; j < 4; j++) {
-            for (int i = 0; i < 4; i++) {
-                output[i][j] = matrix_[4 - j - 1][i];
-            }
-        }
-        
-        if(n > 0) output = rotateMatrix(output, n * -90);
-    }
-
-      return output;
-      
 }
